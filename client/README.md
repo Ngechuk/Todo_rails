@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+## Getting Started
+- To clone the frontend application  git clone  - git@github.com:Ngechuk/Todo_rails.git
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## license
+licenced under the [ISC-licenced]
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Generic License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+copyright (c) Ngechuk
+
+## author
+Kevin Ngechu
+[github](https://github.com/Ngechuk)
