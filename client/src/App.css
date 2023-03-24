@@ -2,6 +2,9 @@
   margin:0;
   padding: 0;
 }
+body {
+  background-color: lightblue;
+}
 
 .container {
   background: linear-gradient(to right bottom, #245,205,155, #c89666);
@@ -10,6 +13,8 @@
   display : flex;
   justify-content: center;
   align-items: center;
+  /*max-width: 1200px; /* Set a max width */
+ /* margin: 0 auto; /* Center thetstrgcontainer */
 }
 .app-wrapper {
   background-color: #12343b;
@@ -22,7 +27,7 @@
   margin-bottom: 10px;
 }
 .header h1{
-  color: antiquewhite;
+  color: rgb(151, 97, 27);
   text-align: center;
   margin: 30px 0;
 }
@@ -56,15 +61,15 @@
   max-height: 30px;
 }
 .button-complete{
-  color: darkorange;
+  color: rgb(3, 2, 1);
   margin-right: 10px;
 }
 .button-edit{
-  color: gold;
+  color: rgb(122, 94, 247);
   margin-right: 10px;
 }
 .button-delete{
-  color: lightgreen;
+  color: rgb(134, 148, 58);
 }
 .complete{
   text-decoration: solid;
@@ -84,4 +89,7 @@
 input:focus,
 button:focus{
   outline: none;
+}
+.button-complete, .button-edit, .button-delete {
+  font-size: 24px;
 }
