@@ -1,3 +1,6 @@
+# Todo_rails
+Combining React and Ruby on rails
+This Readme should detail all the information about the API, will  be updated soon
 # README
 
 This README would normally document whatever steps are necessary to get the
