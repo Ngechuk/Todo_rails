@@ -1,0 +1,66 @@
+.formDiv {
+    position: absolute;
+    top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  .loginDiv {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .logInForm {
+    background-color: rgb(5, 46, 65);
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(232, 232, 238, 0.3);
+  }
+  
+  .logInForm label {
+    display: block;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .logInForm input[type="text"],
+  .logInForm input[type="password"] {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: #e7ebff;
+    font-size: 16px;
+  }
+  
+  .logInForm input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #0f2186;
+    color: rgb(240, 240, 243);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .logInForm input[type="submit"]:hover {
+    background-color: #043e6d;
+  }
+  

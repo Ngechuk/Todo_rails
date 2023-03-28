@@ -4,9 +4,7 @@
 - To clone the frontend application  git clone  - git@github.com:Ngechuk/Todo_rails.git
 
 
-    username : Ngechuk
-    password : demo
-
+   
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

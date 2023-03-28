@@ -1,0 +1,65 @@
+.formDivSingle {
+    position: absolute;
+    top: 0px;
+    background-color: #075e54;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .loginDivSingle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .logInFormSingle {
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .singleAttrTask {
+    font-size: 18px;
+    color: #4f4f4f;
+  }
+  
+  .singleAttr {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .singleAttr label {
+    display: block;
+    font-size: 14px;
+    color: #4f4f4f;
+    margin-bottom: 5px;
+  }
+  
+  .singleAttr input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .singleAttr input[type="submit"] {
+    background-color: #128c7e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .singleAttr input[type="submit"]:hover {
+    background-color: #111312;
+  }

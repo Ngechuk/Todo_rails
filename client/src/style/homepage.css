@@ -1,0 +1,78 @@
+#homepageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .twitter-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
+  
+  .homepageLinks {
+    font-size: 16px;
+    color: #1DA1F2;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .homepageLinks:hover {
+    text-decoration: underline;
+  }
+  
+  .twitter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    }
+    
+    .insideHomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+    }
+    
+    .missionDiv {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .missionLi {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    .testUl {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .testLi {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    .patent {
+    color: rgb(5, 2, 2);
+    }
